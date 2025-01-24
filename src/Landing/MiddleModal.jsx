@@ -24,7 +24,7 @@ function MiddleModal() {
                         <div className="h-[100%] w-full  border-[30px] border-t-0 border-b-0 border-e-0 border-purple-600 " style={{gridRowStart:"6",gridRowEnd:"1",gridColumnStart:"3",gridColumnEnd:"3",alignSelf:"center"}}>
                             
                         </div>
-                        <div className="h-[80%] w-fit " style={{gridRowStart:"1", gridRowEnd:"6",gridColumnStart:"1",gridColumnEnd:"6",alignSelf:"center"}}>
+                        <div className="h-fit w-fit " style={{gridRowStart:"1", gridRowEnd:"6",gridColumnStart:"1",gridColumnEnd:"6",alignSelf:"center"}}>
                             <img className=" h-[100%] object-contain " src="lap.png"></img>
                         </div>
                     </div>
