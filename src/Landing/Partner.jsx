@@ -1,5 +1,5 @@
 function Partner() {
-    return (<div className="h-[30%] text-black py-8">
+    return (<div className="sm:h-[30%] h-[20%] text-black py-8">
 
             <div className="flex flex-col items-center w-full ">
                 <p className="text-4xl font-bold">Our Top Partners</p>

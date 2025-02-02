@@ -17,8 +17,8 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
                   <span class="self-center text-3xl font-semibold whitespace-nowrap text-white">LTempy</span>
               </a>
           </div>
-          <div class="flex sm:flex-row flex-col gap-8 sm:gap-6 sm:grid-cols-3">
-              <div>
+          <div class="flex sm:flex-row sm:flex-nowrap flex-wrap  gap-8 sm:gap-6 sm:grid-cols-3">
+              <div className="w-[44%] ">
                   <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Resources</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
@@ -35,7 +35,7 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
                       </li>
                   </ul>
               </div>
-              <div>
+              <div className="w-[44%]">
                   <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Resources</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
@@ -46,7 +46,7 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
                       </li>
                   </ul>
               </div>
-              <div>
+              <div className="w-[44%]">
                   <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Resources</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
@@ -60,7 +60,7 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
                       </li>
                   </ul>
               </div>
-              <div>
+              <div className="w-[44%]">
                   <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Follow us</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
@@ -71,7 +71,7 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
                       </li>
                   </ul>
               </div>
-              <div>
+              <div className="w-[44%]">
                   <h2 class="mb-6 text-sm font-semibold text-white uppercase dark:text-white">Legal</h2>
                   <ul class="text-gray-500 dark:text-gray-400 font-medium">
                       <li class="mb-4">
@@ -92,7 +92,7 @@ import { BsDribbble, BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2025 <a href="" class="hover:underline">Diordel</a>. All Rights Reserved.
           </span>
           <div class="flex mt-4 sm:justify-center sm:mt-0">
-              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+              <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">      
                   <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                         <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
                     </svg>
