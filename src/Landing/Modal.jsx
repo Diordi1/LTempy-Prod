@@ -17,11 +17,11 @@ function Modal() {
         <Toaster />
         <div className="flex h-[100%] items-center flex-col sm:flex-row  ">
 
-        <div className=" flex flex-col  gap-10 justify-center sm:px-14 px-10 w-[100%] sm:w-[40%] h-[40%]" >
+        <div className=" flex flex-col  gap-8 justify-center sm:px-14 px-10 w-[100%] sm:w-[40%] h-[40%]" >
 
         <div className=" justify-center flex flex-col gap-3">
 
-        <p className="sm:text-6xl text-3xl font-semibold">EduTech Brew</p>
+        <p className="sm:text-6xl text-3xl font-semibold mt-6">EduTech Brew</p>
         <p className="text-xl font-semibold">For iOS & Android</p>
         </div>
         <div>

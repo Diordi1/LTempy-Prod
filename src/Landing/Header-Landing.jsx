@@ -10,7 +10,7 @@ function HeaderLanding() {
     return ( <div className="nav sm:h-[15%] h-[10%] py-7 items-center">
         <Toaster />
         <div>
-            <div className="flex justify-between px-14">
+            <div className="flex justify-between px-10">
 
 
         <div className="flex gap-9 items-center sm:w-[70%]">
